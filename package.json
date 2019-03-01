@@ -1,0 +1,37 @@
+{
+    "name": "entrega",
+    "version": "0.1.0",
+    "description": "Simple CLI tool for transferring files over network",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx mocha tests/*.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/malpercio/entrega.git"
+    },
+    "keywords": [
+        "CLI",
+        "file-transfer"
+    ],
+    "author": {
+        "name": "Daniel González Espinoza",
+        "email": "danielglezespinoza@gmail.com",
+        "url": "http://github.com/malpercio"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/malpercio/entrega/issues"
+    },
+    "homepage": "https://github.com/malpercio/entrega#readme",
+    "devDependencies": {
+        "eslint": "^5.14.1",
+        "mocha": "^6.0.0"
+    },
+    "bin": {
+        "entrega": "./lib/cli/index.js"
+    },
+    "dependencies": {
+        "qrcode": "^1.3.3"
+    }
+}
